@@ -76,9 +76,24 @@ section {
 footer {
     background: #333;
     color: #fff;
-    height: 120px;
+    height: 137px;
     text-align: center;
     padding-top: 50px;
+}
+.social-media {
+    margin-top: 18px;
+}
+a {
+    font-size: 34px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px 3px;
+    color: #03a9f4;
+}
+i.fa.fa-facebook {
+    padding-left: 4px;
+    padding-right: 4px;
 }
 i.fa.fa-hand-pointer-o {
     position: fixed;
