@@ -1,8 +1,8 @@
-var accordien = document.querySelectorAll('h3');
-var i ;
+let accordien = document.querySelectorAll('h3');
+let i ;
 for(i = 0 ; i< accordien.length ; i++){
     accordien[i].addEventListener('click',function(){
-        var next = this.nextElementSibling;
+        let next = this.nextElementSibling;
         if(next.style.maxHeight){
             next.style.maxHeight = null;
 
@@ -11,3 +11,14 @@ for(i = 0 ; i< accordien.length ; i++){
         }
     });
 }
+let spin = document.getElementById('spin');
+spin.onmouseenter = function(){
+    this.classList.add("fa-spin");
+}
+spin.onmouseleave = function(){
+    this.classList.remove("fa-spin");
+}
+let scrool = document.getElementById('scrool');
+scrool.onclick=function(){
+    window.scrollTo(0,0);
+};

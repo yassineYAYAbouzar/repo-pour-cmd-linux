@@ -36,6 +36,7 @@ h1:hover:after {
     margin-left: 150px;
     margin-bottom: 56px;
     color: #2a596f;
+    cursor: pointer;
 }
 /*start section*/
 h3 {
@@ -78,4 +79,13 @@ footer {
     height: 120px;
     text-align: center;
     padding-top: 50px;
+}
+i.fa.fa-hand-pointer-o {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    margin-right: 12px;
+    font-size: 30px;
+    color: #03a9f4;
+    cursor: pointer;
 }
