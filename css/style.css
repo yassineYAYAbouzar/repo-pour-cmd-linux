@@ -83,7 +83,7 @@ footer {
 .social-media {
     margin-top: 18px;
 }
-.social-media a {
+.social-media .item{
     font-size: 34px;
     padding: 5px;
     background: #fff;
@@ -91,7 +91,7 @@ footer {
     margin: 10px 3px;
     color: #03a9f4;
 }
-i.fa.fa-facebook {
+.fb {
     padding-left: 4px;
     padding-right: 4px;
 }
